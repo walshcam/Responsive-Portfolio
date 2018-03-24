@@ -128,7 +128,7 @@ h2 {
 .imagePadding {
     padding-right: 20px;
     padding-bottom: 20px;
-    width: 20%;
+    width: 200px;
 }
 
 .ConnectWithMeImages {
@@ -198,4 +198,70 @@ footer {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     padding: 30px;
     border-top: 5px solid #4aaaa5;
+}
+
+/* ******************MEDIA TAGS********************* */
+
+@media only screen and (max-width: 1000px) {
+
+    /* Have a margin on both sides of the sections */
+
+    header .headerWidth {
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .allSections {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+}
+
+@media only screen and (max-width:962px) {
+
+    /* Make the "Contact Me" Section Move To The Bottom */
+
+    .allSections {
+        width: auto;
+    }
+
+    .oneSection {
+        float: none;
+        clear: both;
+        width: auto;
+    }
+
+    .Section2 {
+        float: none;
+        clear: both;
+        width: auto;
+    }
+
+}
+
+/* Media changes at 569px */
+
+@media only screen and (max-width: 569px) {
+
+    header .headerWidth {
+        height: 125px;
+    }
+    
+    h1 {
+        float: none;
+        width: auto;
+        text-align: center;
+    }
+
+    .navProperties {
+        width: auto;
+        text-align: center;
+        float: none;
+        /* center navigation bar */
+        padding-top: 3px;
+        margin-top: 0px;
+        cursor: pointer;
+    }
 }
