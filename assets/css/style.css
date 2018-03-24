@@ -269,4 +269,14 @@ footer {
     nav ul {
         padding: 0px;
     }
+
+    /* Text is to go under the picture at this width*/
+.floatImage {
+    float: none;
+}
+
+.imagePadding {
+    padding-right: 0px;
+    width: 100%;
+}
 }
