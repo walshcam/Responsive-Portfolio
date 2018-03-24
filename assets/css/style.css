@@ -107,11 +107,14 @@ h2 {
 }
 
 .container {
-    width: 320px;
-    height: 240px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    width: 49%;
     display: inline-block; 
+}
+
+.portfolioPicture {
+    width: 98%;
+    padding-right: 2%;
+    padding-bottom: 2%;
 }
 
 .connectwithmecontainer {
@@ -146,9 +149,9 @@ h2 {
     background-color: #4aaaa5;
     position: relative;
     text-align: center;
-    width:320px;
+    width:98%;
     padding: 20px 0px;
-    bottom: 30%;
+    bottom: 80px;
 }
 
 .width100 {
@@ -243,7 +246,7 @@ footer {
 
 /* Media changes at 569px */
 
-@media only screen and (max-width: 590px) {
+@media only screen and (max-width: 641px) {
 
     header .headerWidth {
         height: 125px;
@@ -270,13 +273,24 @@ footer {
         padding: 0px;
     }
 
-    /* Text is to go under the picture at this width*/
-.floatImage {
-    float: none;
-}
+    /* Text is to go under the picture at this width in index.html*/
+    .floatImage {
+        float: none;
+    }
 
-.imagePadding {
-    padding-right: 0px;
-    width: 100%;
-}
+    .imagePadding {
+        padding-right: 0px;
+        width: 100%;
+    }
+
+    /* Portfolio Pictures Go One Under The Other */
+
+    .container {
+        width: 100%;
+    }
+
+    .portfolioPicture {
+        width: 100%;
+        padding-bottom: 2%;
+    }
 }
