@@ -243,10 +243,11 @@ footer {
 
 /* Media changes at 569px */
 
-@media only screen and (max-width: 569px) {
+@media only screen and (max-width: 590px) {
 
     header .headerWidth {
         height: 125px;
+        margin: 0px;
     }
     
     h1 {
@@ -263,5 +264,9 @@ footer {
         padding-top: 3px;
         margin-top: 0px;
         cursor: pointer;
+    }
+
+    nav ul {
+        padding: 0px;
     }
 }
